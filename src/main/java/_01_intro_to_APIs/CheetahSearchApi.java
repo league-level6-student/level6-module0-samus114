@@ -109,10 +109,10 @@ public class CheetahSearchApi {
         Result result = results[0];
 
         //get the first article
-        String bookTitle = result.getTitle();
-
-        //get the title of the article
         String bookLink = result.getLink();
+        
+        //get the title of the article
+        String bookTitle = result.getTitle();
 
         //create the message
         String message =
